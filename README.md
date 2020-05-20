@@ -1,1 +1,3 @@
-# lkmanagers
+##combineReducers
+  1.随着我们项目的功能越来越复杂，我们需要对reducer进行拆分，拆分后的每一块reducer来独立负责管理state中的一部分
+  2.combineReducers这个辅助函数的作用是把不同的reducer作为一个Object的value值，最终合并成一个大的reducer函数，传入给createStore函数
